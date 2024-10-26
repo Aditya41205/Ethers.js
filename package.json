@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "ethers": "^6.13.4"
+  },
+  "name": "ethers",
+  "version": "1.0.0",
+  "main": "ethersversion.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
