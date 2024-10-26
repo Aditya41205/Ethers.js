@@ -99,7 +99,7 @@ const walletAbi = [
   },
 ];
 
-const contractinteraction=async=()=>{
+const contractinteraction=async()=>{
     const walletcontract= new ethers.Contract(walletAddress,walletAbi,provider);
-    
+
 }
