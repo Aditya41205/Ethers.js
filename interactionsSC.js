@@ -100,6 +100,9 @@ const walletAbi = [
 ];
 
 const contractinteraction=async()=>{
-    const walletcontract= new ethers.Contract(walletAddress,walletAbi,provider);
-
-}
+    const walletContract= new ethers.Contract(walletAddress,walletAbi,provider);
+    const contractBalance = await walletContract.contractBalance();
+    const balethContract = ethers.utils.formatEther(contractBalance);
+    console.log("Contract Balance:", balethContract);
+};
+contractinteraction();
