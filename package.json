@@ -1,5 +1,21 @@
 {
   "dependencies": {
+<<<<<<< HEAD
     "ethers": "^6.13.4"
   }
+=======
+    "create-react-app": "^5.0.1",
+    "ethers": "^6.13.4"
+  },
+  "name": "ethers",
+  "version": "1.0.0",
+  "main": "ethersversion.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+>>>>>>> 075853f81059120080afc883fe0ea6ccd0ed6946
 }
